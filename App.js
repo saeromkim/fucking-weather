@@ -20,7 +20,6 @@ export default class App extends Component {
         this.setState({
           error: error
         });
-        console.log(position);
       }
     );
   }
@@ -35,7 +34,7 @@ export default class App extends Component {
       this.setState({
         temperature:json.main.temp,
         name:json.weather[0].main
-      });
+      })
     });
   };
   render() {
