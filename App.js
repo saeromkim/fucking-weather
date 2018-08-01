@@ -20,6 +20,7 @@ export default class App extends Component {
         this.setState({
           error: error
         });
+        console.log(position);
       }
     );
   }
